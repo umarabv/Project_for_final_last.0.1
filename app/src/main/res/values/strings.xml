@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Project_for_final_last.0.1</string>
+    <string name="Tamak_Order">Tamak Order</string>
+    <string name="CHto_privesti">Что вам привезти?</string>
+    <string name="Apteka">Аптека</string>
+    <string name="Market">Маркет</string>
+    <string name="Eda_1">Еда</string>
+    <string name="Kr_food">Кыргызские блюда</string>
+    <string name="Vost">Восточная Кухня</string>
+    <string name="Fast_food">Фаст фуд</string>
+    <string name="A">20–30 m</string>
+    <string name="B">20–27 m</string>
+    <string name="C">20–29 m</string>
+    <string name="Dos">доставка</string>
+    <string name="zk">Заказали более сто раз</string>
+    <string name="min">30 мин</string>
+    <string name="summ">общая сумма более 1290 сомов</string>
+    <string name="Besh">Бешбармак</string>
+    <string name="Plov">Плов</string>
+    <string name="manty">Манты</string>
+    <string name="kgs">500 kgs</string>
+    <string name="kgma">420 kgs</string>
+    <string name="kgz">360 kgs</string>
+    <string name="order">ваши заказы tamak order</string>
+    <string name="som">доставка 20 минут</string>
+    <string name="somm">доставка 23 минуты</string>
+    <string name="sommm">доставка 10 минут</string>
+    <string name="sommmm">доставка 35</string>
+    <string name="mark">маркет</string>
+    <string name="fruit">фрукты и овощи</string>
+    <string name="tabaco">табачные изделия</string>
+    <string name="soki">соки газироваки и напитки</string>
+    <string name="o">нурофен ожидание 20 минут</string>
+    <string name="p">парацетамол ожидание 19 минут</string>
+    <string name="r">таблетки от головной боли 23 минуты одидания</string>
+    <string name="zaka">закаказать за 500</string>
+    <string name="sawsaw">спасибо за заказ!ваш заказ скоро будет</string>
+
+
+    <string name="classic_roles">классически роллы</string>
+    <string name="kgb">600 kgs</string>
+    <string name="addd">добавить заказ</string>
+    <string name="lm">содержание: рис с высоким содержанием клейковины;сахар;соль;японский уксус;морепродукты: например, креветки, угорь или семга.</string>
+
+
+    <string name="Vashi_zakazy">Ваши заказы</string>
+
+
+</resources>

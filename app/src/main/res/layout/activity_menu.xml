@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Sary"
+    tools:context=".Menu_Activity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="238dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/Greys"
+        android:text="@string/CHto_privesti"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:layout_width="131dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="176dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/component_9"
+        android:contentDescription="@string/hide_bottom_view_on_scroll_behavior" />
+
+    <ImageView
+        android:layout_width="404dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="608dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/component_12"
+        android:contentDescription="@string/fab_transformation_sheet_behavior" />
+
+
+    <ImageView
+        android:layout_width="128dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/component_10"
+        android:contentDescription="@string/app_name" />
+
+
+    <ImageView
+        android:layout_width="142dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="416dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/component_11"
+        android:contentDescription="@string/material_motion_easing_accelerated" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="192dp"
+        android:text="@string/Apteka"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/eda_1"
+        android:layout_width="50dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="328dp"
+        android:text="@string/Eda_1"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="440dp"
+        android:text="@string/Market"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="676dp"
+        android:text="@string/Vashi_zakazy"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
