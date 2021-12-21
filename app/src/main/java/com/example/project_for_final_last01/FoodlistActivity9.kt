@@ -10,9 +10,9 @@ class FoodlistActivity9 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_foodlist9)
-        val btn = findViewById<TextView>(R.id.besht)
+        val beshbarmak = findViewById<TextView>(R.id.besht)
 
-        btn.setOnClickListener {
+        beshbarmak.setOnClickListener {
             startActivity(Intent(this, ZakazActivity::class.java))
         }
     }

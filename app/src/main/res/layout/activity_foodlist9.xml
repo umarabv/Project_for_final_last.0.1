@@ -7,79 +7,72 @@
     android:background="@color/back"
     tools:context=".FoodlistActivity9">
 
+
     <Button
+        android:id="@+id/button14"
         android:layout_width="136dp"
         android:layout_height="42dp"
-        android:layout_marginStart="136dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="@color/Sary"
         android:text="@string/Dos"
         android:textColor="@color/black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-    <ImageView
-        android:layout_width="438dp"
-        android:layout_height="201dp"
-        android:layout_marginBottom="4dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/component_1"
-        android:contentDescription="@string/material_motion_easing_linear" />
-
+        app:layout_constraintEnd_toEndOf="@+id/imageView52"
+        app:layout_constraintStart_toStartOf="@+id/imageView52"
+        app:layout_constraintTop_toTopOf="@+id/imageView52" />
 
     <ImageView
+        android:id="@+id/imageView52"
         android:layout_width="304dp"
         android:layout_height="206dp"
-        android:layout_marginStart="52dp"
         android:layout_marginTop="44dp"
+        android:contentDescription="@string/material_motion_easing_linear"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/component_12___2"
-        android:contentDescription="@string/material_motion_easing_linear" />
+        app:srcCompat="@drawable/component_12___2" />
 
     <TextView
         android:layout_width="119dp"
         android:layout_height="34dp"
-        android:layout_marginStart="96dp"
-        android:layout_marginTop="164dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="128dp"
         android:text="@string/zk"
         android:textColor="@color/black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/imageView52"
+        app:layout_constraintTop_toTopOf="@+id/imageView52" />
 
     <TextView
         android:layout_width="57dp"
         android:layout_height="30dp"
-        android:layout_marginStart="252dp"
-        android:layout_marginTop="164dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="48dp"
         android:text="@string/min"
         android:textColor="@color/black"
         android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/imageView52"
+        app:layout_constraintTop_toTopOf="@+id/imageView52" />
 
     <TextView
         android:layout_width="248dp"
         android:layout_height="24dp"
-        android:layout_marginStart="96dp"
-        android:layout_marginTop="216dp"
+        android:layout_marginTop="108dp"
         android:text="@string/summ"
         android:textColor="@color/black"
         android:textSize="15sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/button14"
+        app:layout_constraintStart_toStartOf="@+id/button14"
+        app:layout_constraintTop_toBottomOf="@+id/button14" />
 
     <EditText
+        android:id="@+id/editText3"
         android:layout_width="349dp"
         android:layout_height="59dp"
-        android:layout_marginStart="28dp"
         android:layout_marginTop="240dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:autofillHints="name"
         android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="LabelFor" />
 
 
@@ -87,155 +80,214 @@
         android:id="@+id/editText"
         android:layout_width="349dp"
         android:layout_height="59dp"
-        android:layout_marginStart="28dp"
         android:layout_marginTop="380dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:autofillHints="name"
         android:inputType="numberPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="LabelFor" />
 
     <EditText
         android:id="@+id/editText2"
         android:layout_width="349dp"
         android:layout_height="59dp"
-        android:layout_marginStart="28dp"
         android:layout_marginTop="516dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:autofillHints="phone"
         android:inputType="numberSigned"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="LabelFor" />
 
     <ImageView
+        android:id="@+id/imageView53"
         android:layout_width="86dp"
         android:layout_height="77dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="324dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/component_6"
-        android:contentDescription="@string/kgb" />
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/kgb"
+        app:layout_constraintStart_toStartOf="@+id/editText3"
+        app:layout_constraintTop_toBottomOf="@+id/editText3"
+        app:srcCompat="@drawable/component_6" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="86dp"
         android:layout_height="77dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="456dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/component_6"
-        android:contentDescription="@string/Dos" />
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/Dos"
+        app:layout_constraintStart_toStartOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:srcCompat="@drawable/component_6" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="86dp"
         android:layout_height="77dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="588dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/component_6"
-        android:contentDescription="@string/kgz" />
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/kgz"
+        app:layout_constraintStart_toStartOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:srcCompat="@drawable/component_6" />
 
     <TextView
         android:id="@+id/besht"
         android:layout_width="112dp"
         android:layout_height="77dp"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="324dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
         android:text="@string/Besh"
         android:textColor="@color/black"
         android:textSize="27sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/imageView53"
+        app:layout_constraintTop_toBottomOf="@+id/editText3" />
 
     <TextView
         android:layout_width="108dp"
         android:layout_height="50dp"
-        android:layout_marginStart="144dp"
-        android:layout_marginTop="464dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="32dp"
         android:text="@string/Plov"
         android:textColor="@color/black"
         android:textSize="29sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
 
     <TextView
+        android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="144dp"
-        android:layout_marginTop="592dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
         android:text="@string/manty"
         android:textColor="@color/black"
         android:textSize="29sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
     <TextView
+        android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="272dp"
-        android:layout_marginTop="324dp"
+        android:layout_marginTop="28dp"
         android:text="@string/kgs"
         android:textColor="@color/black"
         android:textSize="28sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/besht"
+        app:layout_constraintTop_toBottomOf="@+id/editText3" />
 
     <TextView
+        android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="272dp"
-        android:layout_marginTop="456dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="28dp"
         android:text="@string/kgma"
         android:textColor="@color/black"
         android:textSize="28sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
 
     <TextView
+        android:id="@+id/textView17"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="276dp"
-        android:layout_marginTop="592dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="28dp"
         android:text="@string/kgz"
         android:textColor="@color/black"
         android:textSize="28sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintEnd_toEndOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
     <ImageView
         android:layout_width="40dp"
         android:layout_height="35dp"
-        android:layout_marginStart="332dp"
-        android:layout_marginTop="372dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/plus__"
-        android:contentDescription="@string/kgz" />
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/kgz"
+        app:layout_constraintEnd_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:srcCompat="@drawable/plus__" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="40dp"
         android:layout_height="35dp"
-        android:layout_marginStart="328dp"
-        android:layout_marginTop="504dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/plus__"
-        android:contentDescription="@string/manty" />
+        android:layout_marginTop="12dp"
+        android:contentDescription="@string/manty"
+        app:layout_constraintEnd_toEndOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:srcCompat="@drawable/plus__" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="40dp"
         android:layout_height="35dp"
-        android:layout_marginStart="332dp"
-        android:layout_marginTop="644dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/plus__"
-        android:contentDescription="@string/lm" />
+        android:layout_marginTop="12dp"
+        android:contentDescription="@string/lm"
+        app:layout_constraintEnd_toEndOf="@+id/textView17"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:srcCompat="@drawable/plus__" />
+
+
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="416dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="128dp"
+        app:layout_constraintEnd_toEndOf="@+id/editText2"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:srcCompat="@drawable/rectangle_47"
+        android:contentDescription="@string/Tamak_Order" />
+
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView54"
+        app:layout_constraintTop_toTopOf="@+id/imageView54"
+        app:srcCompat="@drawable/compass"
+        android:contentDescription="@string/Tamak_Order" />
+
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="44dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView55"
+        app:layout_constraintTop_toTopOf="@+id/imageView54"
+        app:srcCompat="@drawable/shopping_bag"
+        android:contentDescription="@string/Tamak_Order" />
+
+
+    <ImageView
+        android:id="@+id/imageView57"
+        android:layout_width="36dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView56"
+        app:layout_constraintTop_toTopOf="@+id/imageView54"
+        app:srcCompat="@drawable/star"
+        android:contentDescription="@string/Tamak_Order" />
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView57"
+        app:layout_constraintTop_toTopOf="@+id/imageView54"
+        app:srcCompat="@drawable/person"
+        android:contentDescription="@string/Tamak_Order" />
 </androidx.constraintlayout.widget.ConstraintLayout>

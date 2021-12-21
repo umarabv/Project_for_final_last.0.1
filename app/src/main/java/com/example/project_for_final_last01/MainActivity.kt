@@ -10,9 +10,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val btn = findViewById<TextView>(R.id.nmlk)
+        val tamakorder = findViewById<TextView>(R.id.nmlk)
 
-        btn.setOnClickListener {
+        tamakorder.setOnClickListener {
             startActivity(Intent(this, Menu_Activity::class.java))
         }
     }

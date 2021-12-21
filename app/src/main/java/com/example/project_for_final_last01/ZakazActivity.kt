@@ -9,9 +9,9 @@ class ZakazActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_zakaz)
-        val btn = findViewById<Button>(R.id.knock_knock)
+        val zakaz = findViewById<Button>(R.id.knock_knock)
 
-        btn.setOnClickListener {
+        zakaz.setOnClickListener {
             startActivity(Intent(this, ThankuActivity::class.java))
         }
     }

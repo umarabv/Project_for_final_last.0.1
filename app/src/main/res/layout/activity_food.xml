@@ -11,154 +11,206 @@
         android:layout_width="122dp"
         android:layout_height="46dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="156dp"
         android:backgroundTint="@color/Grs"
         android:text="@string/Eda_1"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
-    <ImageView
-        android:layout_width="427dp"
-        android:layout_height="212dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="528dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/component_1"
-        android:contentDescription="@string/zk" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
         android:layout_marginTop="112dp"
+        android:contentDescription="@string/zaka"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/component_9__"
-        android:contentDescription="@string/zaka" />
+        app:srcCompat="@drawable/component_9__" />
 
 
     <ImageView
+        android:id="@+id/imageView22"
         android:layout_width="293dp"
         android:layout_height="34dp"
         android:layout_marginTop="372dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="@string/Vost"
+        app:layout_constraintEnd_toEndOf="@+id/imageView21"
         app:layout_constraintHorizontal_bias="0.483"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView21"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/component_12__"
-        android:contentDescription="@string/Vost" />
+        app:srcCompat="@drawable/component_12__" />
 
     <ImageView
+        android:id="@+id/imageView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
         android:layout_marginTop="272dp"
+        android:contentDescription="@string/summ"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/component_10__"
-        android:contentDescription="@string/summ" />
+        app:srcCompat="@drawable/component_10__" />
 
     <ImageView
+        android:id="@+id/imageView16"
         android:layout_width="298dp"
         android:layout_height="35dp"
         android:layout_marginTop="208dp"
+        android:contentDescription="@string/min"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/component_12__" />
+
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:contentDescription="@string/sommmm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/component_12__"
-        android:contentDescription="@string/min" />
-
+        app:srcCompat="@drawable/component_11__" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="440dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/component_11__"
-        android:contentDescription="@string/sommmm" />
-
-    <ImageView
+        android:id="@+id/imageView24"
         android:layout_width="298dp"
         android:layout_height="35dp"
         android:layout_marginTop="536dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="@string/material_motion_easing_standard"
+        app:layout_constraintEnd_toEndOf="@+id/imageView23"
         app:layout_constraintHorizontal_bias="0.584"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView23"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/component_12__"
-        android:contentDescription="@string/material_motion_easing_standard" />
+        app:srcCompat="@drawable/component_12__" />
 
     <TextView
         android:id="@+id/kr_fdn"
         android:layout_width="130dp"
         android:layout_height="58dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
         android:text="@string/Kr_food"
         android:textColor="@color/black"
         android:textSize="19sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
 
     <TextView
         android:layout_width="130dp"
         android:layout_height="63dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="296dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
         android:text="@string/Vost"
         android:textColor="@color/black"
         android:textSize="19sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/imageView21"
+        app:layout_constraintTop_toTopOf="@+id/imageView21" />
 
     <TextView
         android:layout_width="110dp"
         android:layout_height="46dp"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="472dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
         android:text="@string/Fast_food"
         android:textColor="@color/black"
         android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/imageView23"
+        app:layout_constraintTop_toTopOf="@+id/imageView23" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="212dp"
-        android:layout_marginEnd="84dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
         android:text="@string/A"
         android:textColor="@color/black"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="@+id/imageView16" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="372dp"
-        android:layout_marginEnd="80dp"
+        android:layout_marginEnd="12dp"
         android:text="@string/B"
         android:textColor="@color/black"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/imageView22"
+        app:layout_constraintTop_toTopOf="@+id/imageView22" />
 
     <TextView
+        android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="544dp"
-        android:layout_marginEnd="76dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
         android:text="@string/C"
         android:textColor="@color/black"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/imageView24"
+        app:layout_constraintTop_toTopOf="@+id/imageView24" />
 
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="414dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView23"
+        app:layout_constraintStart_toStartOf="@+id/imageView23"
+        app:layout_constraintTop_toBottomOf="@+id/imageView23"
+        app:srcCompat="@drawable/rectangle_47"
+        android:contentDescription="@string/Tamak_Order" />
+
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="45dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView25"
+        app:layout_constraintTop_toTopOf="@+id/imageView25"
+        app:srcCompat="@drawable/compass"
+        android:contentDescription="@string/Tamak_Order" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="46dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView26"
+        app:layout_constraintTop_toTopOf="@+id/imageView25"
+        app:srcCompat="@drawable/shopping_bag"
+        android:contentDescription="@string/Tamak_Order" />
+
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="47dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView27"
+        app:layout_constraintTop_toTopOf="@+id/imageView25"
+        app:srcCompat="@drawable/star"
+        android:contentDescription="@string/Tamak_Order" />
+
+
+    <ImageView
+        android:layout_width="44dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView28"
+        app:layout_constraintTop_toTopOf="@+id/imageView25"
+        app:srcCompat="@drawable/person"
+        android:contentDescription="@string/Tamak_Order" />
 </androidx.constraintlayout.widget.ConstraintLayout>

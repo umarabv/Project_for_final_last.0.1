@@ -3,13 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_minimize_24.xml" value="0.31145833333333334" />
         <entry key="app/src/main/res/layout/activity_farma.xml" value="0.2953125" />
         <entry key="app/src/main/res/layout/activity_food.xml" value="0.29583333333333334" />
-        <entry key="app/src/main/res/layout/activity_foodlist9.xml" value="0.2481439293565405" />
+        <entry key="app/src/main/res/layout/activity_foodlist9.xml" value="0.2377088562128293" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/activity_market.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.29583333333333334" />
-        <entry key="app/src/main/res/layout/activity_sod.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/activity_market.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_sod.xml" value="0.4598706223349983" />
         <entry key="app/src/main/res/layout/activity_thanku.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_yourorder.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_zakaz.xml" value="0.2953125" />
@@ -21,5 +22,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.165" />
+      </ProjectState>
+    </option>
   </component>
 </project>

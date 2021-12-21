@@ -7,37 +7,40 @@
     android:background="@color/back"
     tools:context=".YourorderActivity">
 
+
     <TextView
+        android:id="@+id/textView8"
         android:layout_width="220dp"
         android:layout_height="64dp"
-        android:layout_marginStart="104dp"
         android:layout_marginTop="16dp"
         android:text="@string/order"
         android:textColor="@color/black"
         android:textSize="25sp"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView36"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <ImageView
+        android:id="@+id/imageView36"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
         android:layout_marginTop="124dp"
+        android:contentDescription="@string/B"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/component_5"
-        android:contentDescription="@string/B" />
+        app:srcCompat="@drawable/component_5" />
 
     <ImageView
+        android:id="@+id/imageView37"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="248dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="@string/kgs"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/component_4"
-        android:contentDescription="@string/kgs" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView36"
+        app:srcCompat="@drawable/component_4" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -50,35 +53,26 @@
         app:srcCompat="@drawable/component_4"
         android:contentDescription="@string/soki" />
 
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="372dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/kgz"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/component_3"
-        android:contentDescription="@string/kgz" />
-
-
-    <ImageView
-        android:layout_width="412dp"
-        android:layout_height="198dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginBottom="4dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/component_1"
-        android:contentDescription="@string/Besh" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView37"
+        app:srcCompat="@drawable/component_3" />
 
     <Button
+        android:id="@+id/button11"
         android:layout_width="225dp"
         android:layout_height="36dp"
         android:layout_marginStart="136dp"
-        android:text="@string/som"
-        android:textColor="@color/black"
         android:layout_marginTop="172dp"
         android:backgroundTint="@color/Grs"
+        android:text="@string/som"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -157,4 +151,62 @@
         android:backgroundTint="@color/Grs"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="411dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="580dp"
+        android:contentDescription="@string/Tamak_Order"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/rectangle_47" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView38"
+        app:layout_constraintTop_toTopOf="@+id/imageView38"
+        app:srcCompat="@drawable/compass"
+        android:contentDescription="@string/Tamak_Order" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="40dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView39"
+        app:layout_constraintTop_toTopOf="@+id/imageView38"
+        app:srcCompat="@drawable/shopping_bag"
+        android:contentDescription="@string/Tamak_Order" />
+
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="42dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView40"
+        app:layout_constraintTop_toTopOf="@+id/imageView38"
+        app:srcCompat="@drawable/star"
+        android:contentDescription="@string/Tamak_Order" />
+
+
+    <ImageView
+        android:layout_width="46dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView41"
+        app:layout_constraintTop_toTopOf="@+id/imageView38"
+        app:srcCompat="@drawable/person"
+        android:contentDescription="@string/Tamak_Order" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,9 +10,9 @@ class Menu_Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
-        val btn = findViewById<TextView>(R.id.eda_1)
+        val tomain = findViewById<TextView>(R.id.eda_1)
 
-        btn.setOnClickListener {
+        tomain.setOnClickListener {
             startActivity(Intent(this, Food_Activity::class.java))
         }
     }
